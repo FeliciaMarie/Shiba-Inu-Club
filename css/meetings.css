@@ -1,0 +1,132 @@
+html {
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+    background-color: antiquewhite;
+    padding-left: 2rem;    
+}
+
+p {
+    font-size: 1.25rem;
+    width: auto;
+}
+
+img {
+    float: left;
+    height: 100%;
+    margin: 0 2rem 2rem 0;
+}
+
+table {
+    margin: 2rem 1rem 3rem 0;
+}
+table, th, td {
+    border: darkblue 1.5px solid;
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    font-size: 2rem;
+    background-color: #0088cc;
+}
+
+th, td {
+    padding: 1.5rem;
+}
+nav.links {
+    background-color: #ffb84d;
+    padding: 0 4rem;
+}
+
+#nav-title {
+    font-size: 1.5rem;
+    padding-right: 4rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.links li {
+    font-size: 1.25rem;
+    display: inline-block;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.links li:hover {
+    background-color:  #77b300;
+    color: black;
+}
+
+div.intro {
+    color: white;
+    background-color: #0088cc;
+    padding: 5rem 1rem 5rem 0;
+    margin: 0 1rem 10rem 1rem;
+}
+
+td.event {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    background-color: #00aaff;
+}
+
+@media screen and (max-width: 852px) {
+    #nav-title, header, img {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .links li, #nav-title {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 986px) {
+    div.intro {
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    div.intro {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    header {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        font-size: 1.25rem;
+        padding: 0 6rem 0 5rem;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    td {
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    td.event, th, td {
+        font-size: 1rem;
+        padding: .75rem;
+    }
+}

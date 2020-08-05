@@ -1,0 +1,92 @@
+html {
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+nav.links {
+    background-color: #ffb84d;
+    padding: 0 4rem;
+}
+
+.links li {
+    font-size: 1.25rem;
+    display: inline-block;
+    padding: 2rem 2rem;
+}
+
+.links li:hover {
+    background-color:  #77b300;
+    color: black;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+img.shiba-1 {
+    float: left;
+    max-width: 100%;
+    height: auto;
+    margin: 0rem 2rem 2rem 0rem;
+}
+
+h1.top-left {
+    font-family: 'Josefin Sans', sans-serif;
+    color: antiquewhite;
+    font-size: 4rem;
+    text-align: left;
+    position: absolute;
+    top: .2rem;
+    left: 2rem;  
+}
+
+div.container {
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+@media screen and (max-width: 1275px) {
+    p, h2, img.shiba-1 {
+        display: block;
+        font-size: 1.25rem;
+        width: 100%;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1.top-left {
+        font-size: 2rem;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    h1.top-left {
+        font-size: 3rem;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .links li {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    p {
+        font-size: 1rem;
+    }
+}
+
